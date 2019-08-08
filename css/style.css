@@ -1,0 +1,23 @@
+.slider h3,
+.slider h5,{
+	-webkit-text-stroke: 0.9px red;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.slider span{
+	font-weight: 750;
+	color: #e91e63;
+	-webkit-text-stroke: 0.2px white;
+}
+.slider img{
+	height: 500px;
+}
+.slider .dua{
+	color: blue;
+}
+.slider .dua span{
+	font-weight: 700;
+}
+footer {
+	padding: 20px;
+	margin-top: -15px;
+}
