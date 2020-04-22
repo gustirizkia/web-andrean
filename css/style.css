@@ -1,23 +1,206 @@
-.slider h3,
-.slider h5,{
-	-webkit-text-stroke: 0.9px red;
-	text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+.btnSubmit{
+
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
 }
-.slider span{
-	font-weight: 750;
-	color: #e91e63;
-	-webkit-text-stroke: 0.2px white;
+.huruf-khusus{
+	font-family: 'Noto Serif', serif;
 }
-.slider img{
-	height: 500px;
+.tombol{
+	border-radius: 20px;
+	width: 100px;
 }
-.slider .dua{
-	color: blue;
+.navbar-brand,.nav-link{
+	color: #fbb716 !important;
+
 }
-.slider .dua span{
-	font-weight: 700;
+
+.jumbotron {
+	height: 450px;
+	background-size: cover;
+	color: white;
+	text-align: center;
+
 }
-footer {
-	padding: 20px;
-	margin-top: -15px;
+.tulisan-jumbotron{
+	margin-top: 30px;
+}
+
+.jumbotron h1{
+	margin-top: -30px;
+}
+.jumbotron h1 span{
+ 	color: #fbb716;
+}
+
+.jumbotron a{
+	color: white;
+	text-transform: none;
+}
+.panel img{
+	height: 60px;
+	margin-right: 10px;
+}
+.info-panel{
+	background-color: #313a39;
+	border-radius: 15px;
+	margin-top: -90px;
+	padding: 25px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	color: white;
+}
+.info-panel h5{
+	color: #fbb716;
+	font-weight: bold;
+}
+.info-panel p{
+	font-size: 12px;
+	margin-top: -10px;
+}
+
+.about h2{
+	color : #fbb716 !important;
+}
+.about hr{
+	float: left;
+	background-color: #fbb716;
+	margin-top: -3px;
+	height: 3px;
+	width: 150px;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+.about p{
+	margin-top: 25px;
+	color: #939191;
+}
+
+.partner{
+	background-color: #313a39;
+	
+	color: white;
+	padding-top: 10px;
+}
+.partner img{
+	height: 80px;
+}
+
+.partner .partner-4 img{
+	height: 140px;
+}
+
+.pimpinan-1 {
+	background-color: #e6e6e6;
+}
+.pimpinan-1 .card{
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.pimpinan-1 h3 {
+	color : #fbb716 !important;
+}
+.pimpinan-1 img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	height: 120px;
+	width: 120px;
+}
+
+.pimpinan-1 h6{
+	font-weight: bold;
+	color: #00ff00;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.login img{
+	margin-right: 20px;
+	height: 250px;
+}
+.login h4{
+	font-size: 16px;
+	color: #0468b6;
+	margin-top: 20px;
+}
+.login .masukan {
+	width: 200px;
+}
+.login h6 {
+	color: white;
+}
+
+.login a{
+	width: 100px;
+	height: 40px;
+}
+
+.footer{
+	background-color: #1c2125;
+	color: white;
+	padding: 30px;
+}
+.footer h4{
+	color : #fbb716 !important;
+}
+.footer a{
+	color: white;
+}
+
+/*Desktop versiion*/
+@media (min-width: 992px) {
+	.tombol{
+	border-radius: 20px;
+	width: 100px;
+	} 
+	.nav-link{
+	text-transform: uppercase;
+	margin-left: 30px;
+	}
+	.partner img{
+	height: 100px;
+	}
+
+	.partner .partner-4 img{
+	height: 160px;
+	}
+	.pimpinan-1 .card{
+	height: 300px;
+	}
+	.login img{
+	margin-right: 20px;
+	height: 300px;
+	}
+	.login h4{
+	color: #0468b6;
+	margin-top: 20px;
+	}
+	.login .masukan {
+		width: 300px;
+	}
+	.login h6 {
+		color: white;
+	}
+
+
+
 }

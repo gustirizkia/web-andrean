@@ -1,0 +1,42 @@
+body{
+	background-color: #b3d6d2;
+}
+
+.huruf-khusus{
+	font-family: 'Noto Serif', serif;
+}
+.navbar-brand,.nav-link{
+	color: #fbb716 !important;
+}
+
+.panel-2{
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+.panel img{
+	width: 40px;
+	margin-right: 6px;
+}
+.panel span{
+	display: flex;
+	font-size: 10px;
+	margin-top: -15px;
+}
+.panel textarea{
+	height: 150px;
+}
+
+
+
+.footer{
+	background-color: #1c2125;
+	color: white;
+	padding: 30px;
+}
+.footer h4{
+	color : #fbb716 !important;
+}
+.footer a{
+	color: white;
+}

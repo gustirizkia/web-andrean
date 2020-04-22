@@ -1,0 +1,134 @@
+.login-container{
+    margin-top: 5%;
+}
+.login-form-2{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: #00a090;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 .huruf-khusus{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: white;
+    background-color: #fe0000;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.garis-lurus{
+    width: 0px;
+    height: 50px;
+    border: 1px #fff solid;
+}
+.footer{
+   
+    background-color: black;
+    color: red;
+    padding-top: 10px;
+}
+.footer h2{
+    font-size: 15px;
+}
+.footer h4{
+    font-size: 15px;
+}
+
+
+/*deesktop*/
+@media (min-width: 992px) {
+    .login-container{
+    margin-top: 5%;
+}
+.login-form-2{
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: #00a090;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 .huruf-khusus{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit{
+
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: white;
+    background-color: #fe0000;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.garis-lurus{
+    width: 0px;
+    height: 40px;
+    border: 1px #fff solid;
+}
+.footer{
+    display: flex;
+    object-position: left;
+    background-color: black;
+    color: red;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer h4{
+    font-size: 18px;
+}
+
+
+}
